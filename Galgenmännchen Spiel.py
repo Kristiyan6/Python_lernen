@@ -16,7 +16,7 @@ print("Verusche das Wort zu eratten")
 
 words = word_list.word_list
 word = random.choice(words)
-print(word)
+#print(word)
 
 guesses = ""
 Versuche = 10
@@ -43,4 +43,5 @@ while Versuche > 0:
 
     if Versuche == 0:
      print("Du hast verloren")
+     print("Das richtige Wort war", word)
 
