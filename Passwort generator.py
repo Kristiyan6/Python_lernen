@@ -28,16 +28,16 @@ Passwort = []
 
 
 for _ in range(0, Buchstaben):
-    Buchstaben= random.choice(letters)
+    Buchstaben = random.choice(letters)
     Passwort.append(Buchstaben)
 
 
 for _ in range(0, Sonderzeichen):
-    Sonderzeichen= random.choice(symbols)
+    Sonderzeichen = random.choice(symbols)
     Passwort.append(Sonderzeichen)
 
 for _ in range(0, Zahlen):
-    Zahlen= random.choice(numbers)
+    Zahlen = random.choice(numbers)
     Passwort.append(Zahlen)
 
 random.shuffle(Passwort)
